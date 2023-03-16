@@ -1,0 +1,34 @@
+/* импортирую стили из файла */
+@import "App.css";
+
+
+header {
+    color: wheat;
+    background-color: rgb(29, 41, 26);
+    font-size: 40px;
+    height: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* подключение шрифтов */
+    font-family: 'Open Sans',
+        Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.click-here {
+    background-color: #659b66;
+    border: none;
+    color: rgb(255, 255, 255);
+    /* padding: 15px 32px; */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 4px 2px;    
+    cursor: pointer;
+
+}
